@@ -1,0 +1,19 @@
+﻿Build started 09.04.2015 18:17:13.
+     1>Project "K:\PROGRAMMING\d2d1\D2D1\D2D1.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt CDirect2D.cpp main.cpp RenderObject.cpp
+         RenderObject.cpp
+         main.cpp
+     1>k:\programming\d2d1\d2d1\main.cpp(126): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+         CDirect2D.cpp
+         Generating Code...
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"K:\PROGRAMMING\d2d1\Debug\D2D1.exe" /INCREMENTAL /NOLOGO D2d1.lib Windowscodecs.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"K:\PROGRAMMING\d2d1\Debug\D2D1.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"K:\PROGRAMMING\d2d1\Debug\D2D1.lib" /MACHINE:X86 Debug\CDirect2D.obj
+         Debug\main.obj
+         Debug\RenderObject.obj
+         D2D1.vcxproj -> K:\PROGRAMMING\d2d1\Debug\D2D1.exe
+     1>Done Building Project "K:\PROGRAMMING\d2d1\D2D1\D2D1.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.58
